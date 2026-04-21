@@ -377,6 +377,12 @@ flex-direction: column-reverse;
   margin-top: 1rem;
 }
 
+.heading-medium {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
   /* 店舗情報
 ------------------------------- */
 .location{
@@ -420,6 +426,7 @@ flex-direction: column-reverse;
 text-align: center;
 }
 
+
 /* SNS
 ------------------------------- */
 .sns-item{
@@ -427,7 +434,7 @@ text-align: center;
 
 }
 
-.sns-item .heading-medium{
+.sns-item{
   margin-bottom: .5rem;
 }
 
