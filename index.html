@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>11 Garden Hotel</title>
+    <meta
+      name="description"
+      content="犬と泊まれる　愛犬とお出かけ♪千葉のドッグラン付きホテル　犬の温泉やプライベートドッグランが人気"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- OGP
+    <meta property="og:url" content="https://umeboshitime.github.io/WCBCafe/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="11 Garden Hotel -Home" />
+    <meta
+      property="og:description"
+      content="犬と泊まれる　愛犬とお出かけ♪千葉のドッグラン付きホテル"
+    /> -->
+
+    <!-- <meta
+      property="og:image"
+      content="https://umeboshitime.github.io/WCBCafe/images/ogp.jpg"
+    /> -->
+
+    <!--ファビコン-->
+    <link rel="icon" type="image/png" href="images/logo100x78.png" />
+
+    <!--リセットCSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <!--Googleフォント-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Kosugi+Maru&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--オリジナルCSS-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="home" class="big-bg">
+      <header class="page-header wrapper">
+        <h1>
+          <a href="index.html"
+            ><img class="logo" src="images/logo100x78.png" alt="11gardenhotel"
+          /></a>
+        </h1>
+
+        <nav>
+          <button class="btn-menu font-english">Menu</button>
+          <ul class="main-nav">
+            <li><a href="shisetsu.html">施設紹介</a></li>
+            <li><a href="access.html">アクセス</a></li>
+            <li><a href="question.html">よくある質問</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+
+      <div class="home-content wrapper">
+        <h2 class="page-title">愛犬と、最高の休日を</h2>
+        <p class="shop-name">11 Garden Hotel</p>
+        <a class="btn" href="index.html">予約する</a>
+      </div>
+    </div>
+
+    <section class="about">
+      <h3 class="heading-large font-english">ABOUT</h3>
+      <p class="first-line">
+        ここではワンちゃんが主役！</br>笑顔いっぱいのパラダイスへようこそ
+      </p>
+      <p class="second-line">「うちの子に、思いっきり遊んでリフレッシュしてほしい」</br>
+そんな飼い主さんの願いをマルッと叶えられるホテルです。
+</br>
+青空の下で思いっきり駆け回れるドッグランや</br>癒やしの温泉、マッサージサービスが人気です。</br>
+お泊まりデビューも、いつものお出かけも大歓迎です！
+</p>
+</section>
+
+      <h3 class="heading-large font-english">NEWS</h3>
+      <table class="news">
+        <tr>
+          <th>2026/04/01</th>
+          <td>6月のご予約受付を開始いたしました</td>
+        </tr>
+        <tr>
+          <th>2026/03/01</th>
+          <td>5月のご予約受付を開始いたしました</td>
+        </tr>
+        <tr>
+          <th>2026/02/01</th>
+          <td>4月のご予約受付を開始いたしました</td>
+        </tr>
+        <tr>
+          <th>2026/01/01</th>
+          <td>新年あけましておめでとうございます</td>
+        </tr>
+      </table>
+
+      <div class="news">
+<p class="third-line">TVCMを放送中です！</p>
+<video class="movie" src="images/video.mp4" controls></video>
+      </div>
+      
+
+<footer class="page-footer">
+      <div class="copyright">
+        <small>&copy; 2026 11 Garden Hotel</small>
+      </div>
+    </footer>
+
+    <script>
+      const btn = document.querySelector(".btn-menu");
+      const nav = document.querySelector(".main-nav");
+
+      btn.addEventListener("click", () => {
+        nav.classList.toggle("open-menu");
+        if (btn.innerHTML === "Menu") {
+          btn.innerHTML = "Close";
+        } else {
+          btn.innerHTML = "Menu";
+        }
+      });
+    </script>
+  </body>
+</html>

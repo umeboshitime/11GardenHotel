@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>11 Garden Hotel - FAQ</title>
+    <meta
+      name="description"
+      content="よくあるご質問｜犬と泊まれる　愛犬とお出かけ♪千葉のドッグラン付きホテル　犬の温泉やプライベートドッグランが人気"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ファビコン -->
+    <link rel="icon" type="image/png" href="images/logo100x78.png" />
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <!--Googleフォント-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Kosugi+Maru&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- オリジナルCSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      
+
+      /* アコーディオン全体 */
+      .faq {
+        max-width: 736px;
+        margin: 0 auto ;
+        padding: 0 1.5rem;
+      }
+
+      /* 1つのQ&Aブロック */
+      .accordion-item {
+        border-bottom: 1px solid #ddd;
+      }
+
+      /* 質問ボタン */
+      .accordion-question {
+        width: 100%;
+        text-align: left;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 1.25rem 2.5rem 1.25rem 0;
+        font-size: 1.1rem;
+        font-family: inherit;
+        color: #432;
+        position: relative;
+        line-height: 1.6;
+      }
+
+      /* 矢印アイコン */
+      .accordion-question::after {
+        content: "▼";
+        position: absolute;
+        right: 0.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 0.75rem;
+        color: #0bd;
+        transition: transform 0.3s;
+      }
+
+      /* 開いたときに矢印を反転 */
+      .accordion-question.is-open::after {
+        transform: translateY(-50%) rotate(180deg);
+      }
+
+      /* 回答（初期状態：非表示） */
+      .accordion-answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease;
+      }
+
+      /* 回答（開いた状態） */
+      .accordion-answer.is-open {
+        max-height: 300px;
+      }
+
+      .accordion-answer p {
+        padding: 0 0.5rem 1.25rem;
+        color: #666;
+        line-height: 1.8;
+      }
+
+      /* Q / A ラベル */
+      .label-q,
+      .label-a {
+        display: inline-block;
+        font-family: "Philosopher", sans-serif;
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-right: 0.5rem;
+      }
+      .label-q {
+        color: #0bd;
+      }
+      .label-a {
+        color: #432;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="cover-others">
+      <header class="page-header wrapper">
+        <h1>
+          <a href="index.html"
+            ><img class="logo" src="images/logo100x78.png" alt="11gardenhotel"
+          /></a>
+        </h1>
+        <nav>
+          <button class="btn-menu font-english">Menu</button>
+          <ul class="main-nav">
+            <li><a href="shisetsu.html">施設紹介</a></li>
+            <li><a href="access.html">アクセス</a></li>
+            <li><a href="question.html">よくある質問</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="shisestu-content wrapper">
+      <h2 class="page-title-other font-english2">FAQ</h2>
+      <p class="second-line"> 
+      ご宿泊に関する疑問や不安をこちらで解決！</br>
+飼い主様から多く寄せられるご質問をまとめました。</br>
+安心・安全な旅の準備に、ぜひお役立てください
+        </p>
+        </div>
+    </div>
+
+    <main class="faq">
+      <h3 class="first-line">
+          よくあるご質問
+        </h3>
+      <section>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span>ワクチン証明書の持参は必要ですか？
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >はい、ご持参いただいております。混合ワクチンと狂犬病ワクチンの証明書をご提示いただき、コピーを取らせていただきます。
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span>愛犬用品は何を持参すればよいですか？
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >愛犬グッズは豊富に取り揃えておりますが、お気に入りのクッション、毛布等ございましたらお持ちくださいませ。
+なお貸出のケージとドッグカートのご用意もございます。
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span>他の犬と仲良くできるか不安です。
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >プライベートドッグランや個室のお風呂のご用意もございますのでご安心ください。
+              館内エレベーターにはモニターが付いており、他のお客様との鉢合わせを避けることも可能です。
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span>チェックインとチェックアウトは何時ですか？
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >チェックインは午後3時から、チェックアウトは午前11時まででございます。
+              チェックイン前・チェックアウト後も一部施設をご利用いただけます。
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span>お部屋での食事はできますか？
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >はい、可能です。お部屋食、ラウンジ、テラスでのお食事をご予約時にお選びいただけます。
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span>クレジットは使えますか？
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >はい、ご利用可能です。
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-question">
+            <span class="label-q">Q.</span>返金は可能ですか？
+          </button>
+          <div class="accordion-answer">
+            <p>
+              <span class="label-a">A.</span
+              >申し訳ございませんが、返金は承っておりません。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="align-center" style="margin-top: 3rem">
+        <a class="btn" href="question.html">その他のお問い合わせ</a>
+      </div>
+    </main>
+
+     <footer class="page-footer">
+      <div class="copyright">
+        <p>
+          <small>&copy; 2026 11 Garden Hotel</small>
+        </p>
+      </div>
+  
+    </footer> 
+      </div>
+    </footer>
+
+    <script>
+const btn = document.querySelector(".btn-menu");
+  const nav = document.querySelector(".main-nav");
+
+  btn.addEventListener("click", () => {
+    nav.classList.toggle("open-menu");
+    if (btn.innerHTML === "Menu") {
+      btn.innerHTML = "Close";
+    } else {
+      btn.innerHTML = "Menu";
+    }
+  });
+
+      const q0 = document.querySelectorAll(".accordion-question")[0];
+      const q1 = document.querySelectorAll(".accordion-question")[1];
+      const q2 = document.querySelectorAll(".accordion-question")[2];
+      const q3 = document.querySelectorAll(".accordion-question")[3];
+      const q4 = document.querySelectorAll(".accordion-question")[4];
+      const q5 = document.querySelectorAll(".accordion-question")[5];
+      const q6 = document.querySelectorAll(".accordion-question")[6];
+
+      q0.addEventListener("click", function () {
+        q0.nextElementSibling.classList.toggle("is-open");
+        q0.classList.toggle("is-open");
+      });
+      q1.addEventListener("click", function () {
+        q1.nextElementSibling.classList.toggle("is-open");
+        q1.classList.toggle("is-open");
+      });
+      q2.addEventListener("click", function () {
+        q2.nextElementSibling.classList.toggle("is-open");
+        q2.classList.toggle("is-open");
+      });
+      q3.addEventListener("click", function () {
+        q3.nextElementSibling.classList.toggle("is-open");
+        q3.classList.toggle("is-open");
+      });
+      q4.addEventListener("click", function () {
+        q4.nextElementSibling.classList.toggle("is-open");
+        q4.classList.toggle("is-open");
+      });
+      q5.addEventListener("click", function () {
+        q5.nextElementSibling.classList.toggle("is-open");
+        q5.classList.toggle("is-open");
+      });
+      q6.addEventListener("click", function () {
+        q6.nextElementSibling.classList.toggle("is-open");
+        q6.classList.toggle("is-open");
+      });
+    </script>
+  </body>
+</html>

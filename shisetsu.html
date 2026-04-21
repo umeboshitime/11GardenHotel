@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>11 Garden Hotel - shisetsu</title>
+    <meta
+      name="description"
+      content="犬と泊まれる　愛犬とお出かけ♪千葉のドッグラン付きホテル　犬の温泉やプライベートドッグランが人気"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--ファビコン-->
+    <link rel="icon" type="image/png" href="images/logo100x78.png" />
+
+    <!--リセットCSS-->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+
+    <!--Googleフォント-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Kosugi+Maru&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--オリジナルCSS-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="cover-others" class="big-bg">
+      <header class="page-header wrapper">
+        <h1>
+          <a href="index.html"
+            ><img class="logo" src="images/logo100x78.png" alt="11gardenhotel"
+          /></a>
+        </h1>
+        <nav>
+          <button class="btn-menu font-english">Menu</button>
+          <ul class="main-nav">
+            <li><a href="shisetsu.html">施設紹介</a></li>
+            <li><a href="access.html">アクセス</a></li>
+            <li><a href="question.html">よくある質問</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="shisestu-content wrapper">
+        <h2 class="page-title-other">施設紹介</h2>
+        <p class="second-line">
+          遊んで、食べて、極楽リラックス！</br>
+          ワンちゃんと飼い主さんの思い出を彩る、</br>自慢の施設をご紹介します。</br>
+          当館ならではのハッピーな時間を</br>たっぷり満喫してくださいね！
+        </p>
+      </div>
+    </div>
+
+    <div class="about wrapper">
+      <div class="about_body">
+        <div class="about_body-item">
+          <div class="about_body-item-img">
+            <img src="images/dogrun.webp">
+          </div>
+          <div class="about_body-item-texts">
+<div class="about_body-item-texts-copy">広々した「ドッグラン」</div>
+<p class="about_body-item-texts-p">
+            ノーリードで大爆走！</br>
+            青空の下に広がる芝生のドッグラン</br>
+            アジリティ（障害物）やプライベートゾーンも完備。大興奮のプレイグラウンドです！
+            </p>
+          </div>
+        </div>
+        <div class="about_body-item about_body-item-reverse">
+          <div class="about_body-item-texts">
+            <div class="about_body-item-texts-copy">
+              体を温める「わんこの温泉」
+            </div>
+            <p class="about_body-item-texts-p">
+            遊び疲れたら、ワンちゃん専用の温泉でポカポカ贅沢タイム</br>
+            本格湯船で心も体もリラックス。</br>
+            ワンちゃんのうっとり顔が見れると大人気です。
+            </p>
+          </div>
+          <div class="about_body-item-img">
+            <img src="images/onsen.webp">
+          </div>
+        </div>
+      </div>
+
+<div class="about_body">
+        <div class="about_body-item">
+          <div class="about_body-item-img">
+            <img src="images/lunch.webp">
+          </div>
+          <div class="about_body-item-texts">
+<div class="about_body-item-texts-copy">家族でお食事「テラスランチ」</div>
+<p class="about_body-item-texts-p">
+              開放感あふれるテラスで、愛犬と一緒に美味しいランチタイム</br>
+              豊かな自然に囲まれながら、家族みんなで囲む食事は格別！</br>
+              かけがえのない思い出の1ページに。
+            </p>
+          </div>
+        </div>
+        <div class="about_body-item about_body-item-reverse">
+          <div class="about_body-item-texts">
+            <div class="about_body-item-texts-copy">
+              シニア犬にも人気「わんこスパ」
+            </div>
+            <p class="about_body-item-texts-p">
+              プロの手による優雅なマッサージで、日頃の疲れをスッキリ解消。</br>
+              心身ともにときほぐされる至福のひとときをプレゼントしませんか？
+              
+            </p>
+          </div>
+          <div class="about_body-item-img">
+            <img src="images/massage.webp">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <div class="copyright">
+        <p>
+          <small>&copy; 2026 11 Garden Hotel</small>
+        </p>
+      </div>
+  
+    </footer> 
+
+
+  </body>
+</html>
+
+<script>
+  const btn = document.querySelector(".btn-menu");
+  const nav = document.querySelector(".main-nav");
+
+  btn.addEventListener("click", () => {
+    nav.classList.toggle("open-menu");
+    if (btn.innerHTML === "Menu") {
+      btn.innerHTML = "Close";
+    } else {
+      btn.innerHTML = "Menu";
+    }
+  });
+</script>
